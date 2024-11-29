@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/firebase_google_authentication/static/css/main.38960afb.css",
+    "main.js": "/firebase_google_authentication/static/js/main.d0164c5b.js",
+    "static/js/453.ed3810f9.chunk.js": "/firebase_google_authentication/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/firebase_google_authentication/index.html",
+    "main.38960afb.css.map": "/firebase_google_authentication/static/css/main.38960afb.css.map",
+    "main.d0164c5b.js.map": "/firebase_google_authentication/static/js/main.d0164c5b.js.map",
+    "453.ed3810f9.chunk.js.map": "/firebase_google_authentication/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38960afb.css",
+    "static/js/main.d0164c5b.js"
+  ]
+}
