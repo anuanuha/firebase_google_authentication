@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import { signInWithGoogle } from "./firebase-config";
 import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <button type="button" class="login-with-google-btn"  onClick={signInWithGoogle}>
+  Sign in with Google
+</button>
+
+<button type="button" class="login-with-google-btn" disabled >
+  Sign in with Google
+</button>
+        <h1>{localStorage.getItem("name")}</h1>
+        <h1>{localStorage.getItem("email")}</h1>
+        <img src={localStorage.getItem("photo")}/>
     </div>
   );
 }
