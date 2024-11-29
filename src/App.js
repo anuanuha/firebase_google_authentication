@@ -7,7 +7,7 @@ function App() {
   Sign in with Google
 </button>
 
-<button type="button" class="login-with-google-btn" disabled >
+<button type="button" class="login-with-google-btn"  >
   Sign in with Google
 </button>
         <h1>{localStorage.getItem("name")}</h1>
